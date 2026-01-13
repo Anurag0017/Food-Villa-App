@@ -3,10 +3,10 @@ const Footer = () => {
       <div className="footer">
         Created with <span className="heart">&#9829;</span> By
         
-        <a href="https://www.linkedin.com/in/avanish-ranjan-srivastava-869139203/" target="_blank" className="link">
-          Avanish ranjan srivastava
+        <a href="https://www.linkedin.com/in/anurag-chaurasia-14a762236/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="link">
+          Anurag Chaurasia
         </a>
-         2023
+         2025
         <strong>
           Food<span>villa</span>
         </strong>
