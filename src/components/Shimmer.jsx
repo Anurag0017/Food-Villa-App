@@ -1,24 +1,16 @@
-import { shimmer_card_unit } from "./Config";
-
-// Shimmer card to display with animation
-const CardShimmer = () => {
-  return (
-    <div className="shimmer-card">
-      <div className="shimmer-img stroke animate"></div>
-      <div className="shimmer-title stroke animate"></div>
-      <div className="shimmer-tags stroke animate "></div>
-      <div className="shimmer-details stroke animate "></div>
-    </div>
-  );
-};
-
-const Shimmer = () => {
-  return (
-    <div className="shimmer-container">
-      {new Array(shimmer_card_unit).fill(0).map((element, index) => {
-        return <CardShimmer key={index} />;
-      })}
-    </div>
-  );
-};
-export default Shimmer;
+const Footer = () => {
+    return (
+      <div className="footer">
+        Created with <span className="heart">&#9829;</span> By
+        
+        <a href="https://www.linkedin.com/in/anurag-chaurasia-14a762236/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="link">
+          Anurag Chaurasia
+        </a>
+         2025
+        <strong>
+          Food<span>villa</span>
+        </strong>
+      </div>
+    );
+  };
+  export default Footer;
